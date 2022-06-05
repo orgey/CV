@@ -1,0 +1,182 @@
+* {
+    font-family: 'Garamond';
+
+}
+
+.full-content {
+    margin: 0 auto;
+
+    width: 1000px;
+    height: 4000px;
+    display: flex;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.left {
+    display: flex;
+    width: 30%;
+    background-color: #2A2A2C;
+    flex-direction: column;
+    color: #E6E6E6;
+
+}
+
+.left p {
+    font-size: 14px;
+}
+
+.right {
+    width: 69%;
+    background-color: #F5F5F5;
+    color: #414143;
+}
+
+#pp {
+    width: 150px;
+    border-radius: 150px;
+    margin: 50px auto;
+    border: 3px solid #16BEEF;
+    padding: 3px;
+}
+
+.left .container {
+    margin-bottom: 50px;
+
+}
+
+.left ul {
+    margin: 10px;
+    font-size: 13px;
+    list-style: square;
+    display: block;
+    padding-inline-start: 0;
+    line-height: 2;
+
+}
+
+.left h2::after {
+    content: "";
+    margin-top: 10px;
+    width: 200px;
+    height: 1px;
+    background-color: #E6E6E6;
+    display: block;
+}
+
+
+.skills p {
+    line-height: 1.6;
+}
+
+.job img {
+    width: 60px;
+    height: 60px;
+    margin: auto 0;
+}
+
+.job {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 0px;
+}
+
+.job-content {
+    display: inline-block;
+    width: 500px;
+    margin-left: 40px;
+}
+
+.job-content h3 {
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.job-content h4 {
+    font-style: italic;
+    margin-top: 2px;
+}
+
+.right h1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #2A2A2C;
+}
+
+.right h1::after {
+    content: "";
+    margin-top: 10px;
+    width: 500px;
+    height: 1px;
+    background-color: #CFCFCF;
+    display: block;
+}
+
+.right h2 {
+    font-size: 25px;
+    color: #2A2A2C;
+
+}
+
+
+.experiences ul {
+    padding-inline-start: 20px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.experiences li {
+    margin-bottom: 15px;
+}
+
+.languages li {
+    list-style: none;
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.languages ul {
+    margin-left: 0px;
+}
+
+.languages h4 {
+    font-style: italic;
+}
+
+.refarea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.refbox {
+    width: 40%;
+    border: 3px #CFCFCF solid;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+
+}
+
+.refbox h2 {
+    font-size: 15px;
+}
+
+.refbox h3 {
+    font-size: 14px;
+
+}
+
+.refbox h4 {
+    font-size: 12px;
+
+}
